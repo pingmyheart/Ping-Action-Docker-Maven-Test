@@ -7,10 +7,8 @@ on:
       - '**'
 jobs:
   ci:
-    permissions:
-      contents: write
-      packages: write
     uses: pingmyheart/Ping-Actions/.github/workflows/dispatch.yml@main
+    secrets: inherit
     with:
       project-type: docker-maven
       java-version: 17
