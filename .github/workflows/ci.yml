@@ -5,10 +5,14 @@ on:
   push:
     branches:
       - '**'
+permissions:
+  contents: write
+  packages: write
+  pages: write
 jobs:
   ci:
     uses: pingmyheart/Ping-Actions/.github/workflows/docker-maven.yml@main
     secrets: inherit
     with:
-#      project-type: docker-maven
+      #      project-type: docker-maven
       java-version: 17
