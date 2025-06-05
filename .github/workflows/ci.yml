@@ -7,7 +7,7 @@ on:
       - '**'
 jobs:
   ci:
-    uses: pingmyheart/Ping-Actions/.github/workflows/docker-maven.yml@main
+    uses: pingmyheart/Ping-Actions/.github/workflows/dispatch.yml@main
     secrets: inherit
     with:
       project-type: docker-maven
