@@ -7,9 +7,6 @@ on:
       - '**'
 jobs:
   ci:
-    permissions:
-      contents: write
-      packages: write
     secrets: inherit
     uses: pingmyheart/Ping-Actions/.github/workflows/dispatch.yml@main
     with:
