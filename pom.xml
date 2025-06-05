@@ -4,28 +4,28 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.ping-action-testing-environment</groupId>
-    <artifactId>docker-maven</artifactId>
+    <groupId>io.github.pingmyheart</groupId>
+    <artifactId>ping-action-docker-maven-test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <scm>
-        <url>https://github.com/Ping-Action-Testing-Environment/docker-maven</url>
-        <connection>git://github.com/Ping-Action-Testing-Environment/docker-maven.git</connection>
-        <developerConnection>git@github.com:Ping-Action-Testing-Environment/docker-maven.git</developerConnection>
+        <url>https://github.com/pingmyheart/Ping-Action-Docker-Maven-Test</url>
+        <connection>git://github.com/pingmyheart/Ping-Action-Docker-Maven-Test.git</connection>
+        <developerConnection>git@github.com:pingmyheart/Ping-Action-Docker-Maven-Test.git</developerConnection>
     </scm>
     <issueManagement>
         <system>Github Issues</system>
-        <url>https://github.com/Ping-Action-Testing-Environment/docker-maven/issues</url>
+        <url>https://github.com/pingmyheart/Ping-Action-Docker-Maven-Test/issues</url>
     </issueManagement>
     <ciManagement>
         <system>Github Actions</system>
-        <url>https://github.com/Ping-Action-Testing-Environment/docker-maven/actions</url>
+        <url>https://github.com/pingmyheart/Ping-Action-Docker-Maven-Test/actions</url>
     </ciManagement>
     <distributionManagement>
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/Ping-Action-Testing-Environment/docker-maven</url>
+            <url>https://maven.pkg.github.com/pingmyheart/Ping-Action-Docker-Maven-Test</url>
         </repository>
     </distributionManagement>
     <licenses>
