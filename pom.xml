@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.ping-action-testing-environment</groupId>
+    <artifactId>docker-maven</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <scm>
+        <url>https://github.com/Ping-Action-Testing-Environment/docker-maven</url>
+        <connection>git://github.com/Ping-Action-Testing-Environment/docker-maven.git</connection>
+        <developerConnection>git@github.com:Ping-Action-Testing-Environment/docker-maven.git</developerConnection>
+    </scm>
+    <issueManagement>
+        <system>Github Issues</system>
+        <url>https://github.com/Ping-Action-Testing-Environment/docker-maven/issues</url>
+    </issueManagement>
+    <ciManagement>
+        <system>Github Actions</system>
+        <url>https://github.com/Ping-Action-Testing-Environment/docker-maven/actions</url>
+    </ciManagement>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/Ping-Action-Testing-Environment/docker-maven</url>
+        </repository>
+    </distributionManagement>
+    <licenses>
+        <license>
+            <name>MIT license</name>
+            <url>https://opensource.org/license/mit</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>
