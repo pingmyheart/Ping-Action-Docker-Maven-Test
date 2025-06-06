@@ -14,5 +14,4 @@ jobs:
     uses: pingmyheart/Ping-Actions/.github/workflows/docker-maven.yml@main
     secrets: inherit
     with:
-      #      project-type: docker-maven
       java-version: 17
