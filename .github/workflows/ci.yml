@@ -9,6 +9,7 @@ permissions:
   contents: write
   packages: write
   pages: write
+  actions: write
 jobs:
   ci:
     uses: pingmyheart/Ping-Actions/.github/workflows/docker-maven.yml@main
