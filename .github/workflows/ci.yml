@@ -15,7 +15,7 @@ permissions:
 jobs:
   ci:
     secrets: inherit
-    uses: pingmyheart/Ping-Actions/.github/workflows/dispatch.yml@main
+    uses: pingmyheart/Ping-Actions/.github/workflows/dispatcher.yml@main
     with:
       project-type: docker-maven
       java-version: 17
