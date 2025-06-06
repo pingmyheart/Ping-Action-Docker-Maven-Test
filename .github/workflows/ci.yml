@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - '**'
+
 permissions:
   contents: write
   packages: write
